@@ -34,8 +34,8 @@ Valheim lacks a native ARM64 server binary. This egg translates x86/x64 instruct
 
 ### Server Configuration Gotchas
 *   **Disable Crossplay:** Microsoft's PlayFab library (`libParty.so`) crashes under Box64. Set `Enable Crossplay` to `0`. Steam users can connect; Xbox users will time out.
-*   **Port Allocations:** Valheim requires the primary port and the query port open. If your primary port is `2456`, allocate `2457` in Pterodactyl's Network settings.
-*   **Password Characters:** Do not use single quotes (`'`) in the server password. It will prematurely close the bash startup string and crash the server on boot.
+*   **Port Allocations:** Valheim requires the primary port and the query port open. Allocate both `2456` and `2457`.
+*   **Password Characters:** Password is limited by characters that will only work with quotes `"` (Which means characters like `$` break the password)
 
 ### SteamCMD Troubleshooting on ARM
 If you modify the install script, keep these ARM/SteamCMD quirks in mind:
