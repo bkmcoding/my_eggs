@@ -13,7 +13,7 @@ assignees: ''
 A clear and concise description of what the bug is (e.g., The server crashes during the Box86 installation phase, or the game times out on connection).
 
 **Server Environment (Please complete the following information):**
- - **Host OS & Architecture:** [e.g., Ubuntu 22.04 ARM64 / Oracle Ampere]
+ - **Host OS & Architecture:** [e.g., Ubuntu 22.04 ARM64]
  - **Pterodactyl Panel Version:** [e.g., v1.11.x]
  - **Wings Version:** [e.g., v1.11.x]
 
